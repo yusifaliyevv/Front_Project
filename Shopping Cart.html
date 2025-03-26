@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/card_list.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="stylesheet" href="./assets/css/codepen.css">
+    <script src="assets/js/cl.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid height">
+            <div class="row height">
+                <div class="logs col-sm-6 d-flex" style="width: 100%;">
+                    <div><img src="assets/images/logo.png" alt=""></div>
+                    <div class="pages">
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Catagori</a>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link "  aria-haspopup="true" aria-expanded="false">
+                                    Latest
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="Product List.html">Product List</a>
+                                  <a class="dropdown-item" href="Product Details.html">Product Details</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link "  aria-haspopup="true" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                  <a class="dropdown-item" href="Blog.html">Blog</a>
+                                  <a class="dropdown-item" href="Blog Details.html">Blog Details</a>
+                                </div>
+                            </li>
+                            <li class="dropdown">
+                                <a class="nav-link"  aria-haspopup="true" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="Login.html">Login</a>
+                                    <a class="dropdown-item" href="Register.html">Register</a>
+                                    <a class="dropdown-item" href="Shopping Cart.html">Shopping Cart</a>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="Contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="favs d-flex gap-5">
+                        <div class="search-bx">
+                            <input type="text" name="search" placeholder="Search products">
+                            <div class="magnifying-glass">
+                                <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+                            </div>
+                        </div>
+                        <div class="favourite-items">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <div class="favourite-items">
+                            <a href="Shopping Cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                        </div>
+                        <div class="sign-in-btn">
+                            <button type="button" class="btn btn-primary btn-lg rounded-pill"><a href="Login.html">Sign In</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+          <div class="toppic">Card List</div>
+        </section>
+    </main>
+
+    <section id="card_list" style="padding: 200px 0;">
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="pb">
+                        <td style="font-size: 16px; gap: 20px;"><img src="assets/images/arrivel_1.png.webp" alt="Cap" class="product-img"><span style="padding-left: 30px;">Minimalistic shop for multipurpose use</span></td>
+                        <td>$360.00</td>
+                        <td>
+                            <div class="counter-container">
+                                <button class="counter-btn" onclick="decrease()">−</button>
+                                <span class="counter-value" id="counter">2</span>
+                                <button class="counter-btn" onclick="increase()">+</button>
+                            </div>
+                        </td>
+                        <td>$720.00</td>
+                    </tr>
+                    <tr class="pb">
+                        <td><img src="assets/images/arrivel_2.png.webp" alt="Shirt" class="product-img"><span style="padding-left: 30px;">Minimalistic shop for multipurpose use</span></td>
+                        <td>$360.00</td>
+                        <td>
+                            <div class="counter-container">
+                                <button class="counter-btn" onclick="decrease()">−</button>
+                                <span class="counter-value" id="counter">2</span>
+                                <button class="counter-btn" onclick="increase()">+</button>
+                            </div>
+                        </td>
+                        <td>$720.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="buttons">
+                <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 195px; height: 60px;">Update Cart</button>
+                <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 195px; height: 60px;">Close Coupon</button>
+            </div>
+            <hr style="margin: 40px 0;">
+            <div style="display: flex; gap: 60px; justify-content: flex-end; font-size: 14px; color: #415094;">
+                <p>Subtotal</p>
+                <p>$2160.0</p>
+            </div>
+            <hr style="margin: 40px 0;">
+            <div style="display: flex; justify-content: flex-end;">
+                <div class="shipping" style="font-size: 14px; color: #415094;">Shipping</div>
+                <div style="color: #828bb2; font-size: 20px;">
+                    <ul style="text-align: right;">
+                        <li>Flat Rate: $5.00 <input type="radio"></li>
+                        <li>Free Shipping <input type="radio"></li>
+                        <li>Flat Rate: $10.00 <input type="radio"></li>
+                        <li>Local Delivery: $2.00 <input type="radio"></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                <div class="btn-group" style="width: 305px; height: 40px;">
+                    <button type="button" class="btn btn-secondary dropdown-toggle fs-4 text-start" data-bs-toggle="dropdown" aria-expanded="false">
+                      Bangladesh
+                    </button>
+                    <ul class="dropdown-menu fs-4" style="width: 305px;">
+                      <li><a class="dropdown-item" href="#">Banglaesh</a></li>
+                      <li><a class="dropdown-item" href="#">India</a></li>
+                      <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                <div class="btn-group" style="width: 305px; height: 40px;">
+                    <button type="button" class="btn btn-secondary dropdown-toggle fs-4 text-start" data-bs-toggle="dropdown" aria-expanded="false">
+                      Select a State
+                    </button>
+                    <ul class="dropdown-menu fs-4" style="width: 305px;">
+                      <li><a class="dropdown-item" href="#">Select a State</a></li>
+                      <li><a class="dropdown-item" href="#">Select a State</a></li>
+                      <li><a class="dropdown-item" href="#">Select a State</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="postalcode" style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                <input type="text" placeholder="Postalcode/Zipcode" style="width: 305px; height: 40px;">
+            </div>
+            <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 195px; height: 60px;">Update Details</button>
+            </div>
+            <hr style="margin: 40px 0 20px 0;">
+            <div style="display: flex; justify-content: flex-end; gap: 10px; align-items: center;">
+                <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                    <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 250px; height: 60px;">Coontinue Shopping</button>
+                </div>
+                <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
+                    <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 250px; height: 60px;">Proceed To Checkout</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer style="padding: 0 0 120px 0; margin: 0;">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                    <img class="mb-5" src="assets/images/logo.png" alt="">
+                    <p style="font-size: 16px; color: grey;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi enim labore itaque sint esse doloremque?</p>
+                </div>
+                <div class="quick-links col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                    <p class="fw-bold mb-5">Quick Links</p>
+                    <ul class="m-0 p-0">
+                        <li>About</li>
+                        <li>Offers & Discounts</li>
+                        <li>Get Coupon</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="new-pr col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                    <p class="fw-bold mb-5">New Products</p>
+                    <ul class="m-0 p-0">
+                        <li>Woman Clothes</li>
+                        <li>Fashion Accessories</li>
+                        <li>Man Accessories</li>
+                        <li>Rubber made Toys</li>
+                    </ul>
+                </div>
+                <div class="support col-xl-3 col-lg-3 col-md-5 col-sm-6">
+                    <p class="fw-bold mb-5">Support</p>
+                    <ul class="m-0 p-0">
+                        <li>Frequently Asked Questions</a></li>
+                        <li>Terms & Conditions</a></li>
+                        <li>Privacy Policy</a></li>
+                        <li>Report a Payment Issue</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 50px;">
+                <div class="col-sm-7" style="font-size: 16px; color: grey;">
+                    Copyright ©2025 All rights reserved | This template is made with <i class="fa-regular fa-heart" style="color: #2582FD;"></i> by <span style="color: #2582FD;">Colorlib</span>
+                </div>
+                <div class="col-sm-5" style="font-size: 18px; display: flex; justify-content: flex-end; align-items: center; gap: 10px;">
+                    <a href="https://x.com/home" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/home.php" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/said-nuraliyev-a156b4232/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
