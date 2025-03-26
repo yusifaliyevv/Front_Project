@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/blog.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/dropdowns.css">
@@ -19,8 +20,8 @@
     <title>Shop</title>
   </head>
   <body>
-    <header>
-      <div class="container-fluid height">
+    <header style="font-family: Poppins , sans-serif;">
+      <div class="container height">
           <div class="row height">
               <div class="logs col-sm-6 d-flex" style="width: 100%;">
                   <div><img src="assets/images/logo.png" alt=""></div>
@@ -65,7 +66,7 @@
                           </li>
                       </ul>
                   </div>
-                  <div class="favs d-flex gap-5">
+                  <div class="favourites favs gap-5">
                       <div class="search-bx">
                           <input type="text" name="search" placeholder="Search products">
                           <div class="magnifying-glass">
@@ -82,10 +83,11 @@
                           <button type="button" class="btn btn-primary btn-lg rounded-pill"><a href="Login.html">Sign In</a></button>
                       </div>
                   </div>
+                  <div class="burger" style="font-size: 30px;"><i class="fa-solid fa-bars"></i></div>
               </div>
           </div>
       </div>
-    </header>
+  </header>
 
     <main>
       <section id="hero">
@@ -236,7 +238,7 @@
                   </div>
                 </div>
                 <div class="card p-3 cardlar">
-                  <h2 >Category</h2>
+                  <h2>Category</h2>
                   <hr/>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item"><a href="">Restaurant food (37)</a></li>

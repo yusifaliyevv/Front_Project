@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/card_list.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/footer.css">
@@ -19,8 +20,8 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="container-fluid height">
+    <header style="font-family: Poppins , sans-serif;">
+        <div class="container height">
             <div class="row height">
                 <div class="logs col-sm-6 d-flex" style="width: 100%;">
                     <div><img src="assets/images/logo.png" alt=""></div>
@@ -65,7 +66,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="favs d-flex gap-5">
+                    <div class="favourites favs gap-5">
                         <div class="search-bx">
                             <input type="text" name="search" placeholder="Search products">
                             <div class="magnifying-glass">
@@ -82,6 +83,7 @@
                             <button type="button" class="btn btn-primary btn-lg rounded-pill"><a href="Login.html">Sign In</a></button>
                         </div>
                     </div>
+                    <div class="burger" style="font-size: 30px;"><i class="fa-solid fa-bars"></i></div>
                 </div>
             </div>
         </div>
@@ -99,31 +101,31 @@
                 <thead>
                     <tr>
                         <th>Product</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Total</th>
+                        <th class="none">Price</th>
+                        <th class="none">Quantity</th>
+                        <th class="none">Total</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="pb">
-                        <td style="font-size: 16px; gap: 20px;"><img src="assets/images/arrivel_1.png.webp" alt="Cap" class="product-img"><span style="padding-left: 30px;">Minimalistic shop for multipurpose use</span></td>
+                        <td class="card-product" style="font-size: 16px; gap: 20px;"><img src="assets/images/arrivel_1.png.webp" alt="Cap" class="product-img"><p style="padding-left: 30px;">Minimalistic shop for multipurpose use</p></td>
                         <td>$360.00</td>
                         <td>
                             <div class="counter-container">
                                 <button class="counter-btn" onclick="decrease()">−</button>
-                                <span class="counter-value" id="counter">2</span>
+                                <span class="counter-value" id="counter">0</span>
                                 <button class="counter-btn" onclick="increase()">+</button>
                             </div>
                         </td>
                         <td>$720.00</td>
                     </tr>
                     <tr class="pb">
-                        <td><img src="assets/images/arrivel_2.png.webp" alt="Shirt" class="product-img"><span style="padding-left: 30px;">Minimalistic shop for multipurpose use</span></td>
+                        <td class="card-product" style="font-size: 16px; gap: 20px;"><img src="assets/images/arrivel_2.png.webp" alt="Cap" class="product-img"><p style="padding-left: 30px;">Minimalistic shop for multipurpose use</p></td>
                         <td>$360.00</td>
                         <td>
                             <div class="counter-container">
                                 <button class="counter-btn" onclick="decrease()">−</button>
-                                <span class="counter-value" id="counter">2</span>
+                                <span class="counter-value" id="counter">0</span>
                                 <button class="counter-btn" onclick="increase()">+</button>
                             </div>
                         </td>
@@ -131,7 +133,7 @@
                     </tr>
                 </tbody>
             </table>
-            <div class="buttons">
+            <div class="buttons-shopping">
                 <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 195px; height: 60px;">Update Cart</button>
                 <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 195px; height: 60px;">Close Coupon</button>
             </div>
@@ -183,7 +185,7 @@
                 <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 195px; height: 60px;">Update Details</button>
             </div>
             <hr style="margin: 40px 0 20px 0;">
-            <div style="display: flex; justify-content: flex-end; gap: 10px; align-items: center;">
+            <div class="buttonstw-shopping" style="display: flex; justify-content: flex-end; gap: 10px; align-items: center;">
                 <div style="display: flex; justify-content: flex-end; margin-top: 20px;">
                     <button type="button" class="btn btn-primary btn-lg fw-bold fs-4" style="width: 250px; height: 60px;">Coontinue Shopping</button>
                 </div>

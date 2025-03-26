@@ -24,6 +24,11 @@ td{
     border: 1px solid #ccc;
 }
 
+.card-product{
+    display: flex;
+    align-items: center;
+}
+
 .pb td{
     padding-bottom: 60px !important;
 }
@@ -48,13 +53,13 @@ td{
     font-size: 20px;
 }
 
-.buttons {
+.buttons-shopping {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
 }
 
-.buttons button {
+.buttons-shopping button {
     background: #007bff;
     color: #fff;
     border: none;

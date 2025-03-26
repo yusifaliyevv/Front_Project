@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/p_details.css">
     <link rel="stylesheet" href="./assets/css/p_list.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
     <link rel="stylesheet" href="./assets/css/navbar.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/dropdowns.css">
@@ -21,8 +22,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-        <div class="container-fluid height">
+    <header style="font-family: Poppins , sans-serif;">
+        <div class="container height">
             <div class="row height">
                 <div class="logs col-sm-6 d-flex" style="width: 100%;">
                     <div><img src="assets/images/logo.png" alt=""></div>
@@ -67,7 +68,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="favs d-flex gap-5">
+                    <div class="favourites favs gap-5">
                         <div class="search-bx">
                             <input type="text" name="search" placeholder="Search products">
                             <div class="magnifying-glass">
@@ -84,6 +85,7 @@
                             <button type="button" class="btn btn-primary btn-lg rounded-pill"><a href="Login.html">Sign In</a></button>
                         </div>
                     </div>
+                    <div class="burger" style="font-size: 30px;"><i class="fa-solid fa-bars"></i></div>
                 </div>
             </div>
         </div>
@@ -107,8 +109,8 @@
                 </div>
                 <div class="col-lg-8">
                     <div class="product-info">
-                        <p style="font-size: 50px; margin-bottom: 8px; padding :0 90px;">Foam filling cotton slow rebound pillows</p>
-                        <p style="font-size: 20px; color: grey; margin: 50px 0 15px 0; padding: 0 40px;">
+                        <p style="font-size: 50px; margin-bottom: 8px; padding :0 90px; font-family: Playfair Display , serif;">Foam filling cotton slow rebound pillows</p>
+                        <p style="font-size: 20px; color: grey; margin: 50px 0 15px 0; padding: 0 40px; font-family: Poppins , sans-serif;">
                             Seamlessly empower fully researched growth strategies and
                             interoperable internal or “organic” sources. Credibly innovate
                             granular internal or “organic” sources whereas high standards in
@@ -119,13 +121,13 @@
                             optimal networks.
                         </p>
                         <div class="bf-af" style="margin-top: 60px;">
-                            <p style="font-size: 15px; color: grey;">Quantity</p>
+                            <p class="quantity" style="font-size: 15px; color: grey;">Quantity</p>
                             <div class="counter-container">
                                 <button class="button" onclick="decrement()">-</button>
                                 <div class="counter" id="counter">1</div>
                                 <button class="button" onclick="increment()">+</button>
                             </div>
-                            <p style="font-size: 15px; color: grey;">$ 5</p>
+                            <p class="pricce" style="font-size: 15px; color: grey;">$ 5</p>
                         </div>
                     </div>
                 </div>
@@ -137,8 +139,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8 text-center prom-update d-flex flex-column align-items-center">
-                    <h2>Get promotions & updates!</h2>
-                    <p class="mt-3">Seamlessly empower fully researched growth strategies and interoperable internal or <br> “organic” sources credibly innovate granular internal .</p>
+                    <h2 style="font-family: Playfair Display , serif;">Get promotions & updates!</h2>
+                    <p class="mt-3" style="font-family: Poppins , sans-serif;">Seamlessly empower fully researched growth strategies and interoperable internal or <br> “organic” sources credibly innovate granular internal .</p>
                     <div class="sub mt-5" style="position: relative;">
                         <input class="mail" type="text" name="search" placeholder="Enter your email" style="color: white; font-size: 20px; padding-left: 20px;">
                         <div class="subscribe" style="position: absolute;">

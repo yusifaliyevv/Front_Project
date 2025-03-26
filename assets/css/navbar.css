@@ -1,6 +1,5 @@
 header{
     height: 100px;
-    padding: 0 170px;
     position: sticky;
     top: 0;
     background-color: white;
@@ -140,3 +139,26 @@ header{
 button a{
     color: white !important;
 }
+
+.favourites{
+    display: flex;
+}
+
+.burger{
+    display: none;
+}
+
+@media (max-width:1300px){
+    .burger{
+      display: block !important;
+    }
+    .pages{
+      display: none;
+    }
+    .logs{
+        justify-content: space-between;
+    }
+    .favourites{
+      display: none !important;
+    }
+  }

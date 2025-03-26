@@ -43,6 +43,11 @@
 
 .card-title{
     font-size: 25px !important;
+    font-family: "Poppins" , sans-serif;
+}
+
+.card-text{
+    color: #4e4e4e;
 }
 
 .card-title:hover{
@@ -53,6 +58,11 @@
 .load-more button{
     width: 160px;
     height: 60px;
+}
+
+.iconhead,
+.iconpara{
+    font-family: "Poppins" , sans-serif;
 }
 
 .ld-mr{
@@ -151,4 +161,8 @@
     width: 140px;
     font-size: 15px;
     font-weight: bold;
+}
+
+.between{
+    justify-content: space-between;
 }
