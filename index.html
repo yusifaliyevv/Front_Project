@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/codepen.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="grid-container">
+    <nav>
+        <div class="navbar navbar-expand-lg navbar-light container">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand"><img src="assets/images/logo.png" alt="Logo"></a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Categori</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item dropdown dropdown-slide dropdown-hover">
+                                    <a class="nav-link "  aria-haspopup="true" aria-expanded="false">
+                                        Latest
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="Product List.html">Product List</a>
+                                      <a class="dropdown-item" href="Product Details.html">Product Details</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item dropdown dropdown-slide dropdown-hover">
+                                    <a class="nav-link "  aria-haspopup="true" aria-expanded="false">
+                                        Blog
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="Blog.html">Blog</a>
+                                      <a class="dropdown-item" href="Blog Details.html">Blog Details</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                <ul class="navbar-nav">
+                                  <li class="nav-item dropdown dropdown-slide dropdown-hover">
+                                    <a class="nav-link "  aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                      <a class="dropdown-item" href="Login.html">Login</a>
+                                      <a class="dropdown-item" href="Register.html">Register</a>
+                                      <a class="dropdown-item" href="Shopping Cart.html">Shopping Cart</a>
+                                    </div>
+                                  </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Contact.html" class="nav-link">Contact</a>
+                        </li>
+                        <input type="text" placeholder="Search Products" class="nav-search" style="width: 150px;">
+                        <button type="submit" class="navsearch-btn"><i class='bx bx-search'></i></button>
+                        <div class="favourite"><i class='bx bx-heart'></i></div>
+                        <div class="cart"><i class='bx bx-cart' ></i></div>
+                        <li class="nav-item">
+                            <a href="Login.html" class="nav-link">
+                            <button type="submit" class="sign-btn">Sign in</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <main>
+        <div class="main-left">
+            <img src="/assets/images/xhero_man.png.pagespeed.ic.cN86RxAvqq.png" class="main-img" alt="">
+        </div>
+        <div class="main-right">
+            <p class="discount">60% Discount</p>
+            <h1 class="collection1">Winter</h1>
+            <h1 class="collection2">Collection</h1>
+            <p class="best-collection">Best Cloth Collection By 2020!</p>
+            <button type="submit" class="shop-btn">Shop Now</button>
+        </div>
+    </main>
+
+
+    <category>
+        <h1 class="category-head">Shop by Category</h1>
+        <div class="category-card">
+            <div class="women-collection">
+                <div class="women-img">
+                    <img src="/assets/images/womens-new-collection.webp" class="women-coll-img" alt="">
+                </div>
+                <div class="img-text1">
+                    <p class="women-line">Women'S</p>
+                    <button type="submit" class="deals-btn">Best New Deals</button>
+                    <p class="new-women-line">New Collection</p>
+                </div>
+            </div>
+            <div class="winter-collection">
+                <div class="winter-img">
+                    <img src="/assets/images/man-new-collection.webp" class="winter-coll-img" alt="">
+                </div>
+                <div class="img-text2">
+                    <p class="disc-line">Discount!</p>
+                    <p class="winter-line">Winter Cloth</p>
+                    <p class="new-coll">New Collection</p>
+                </div>
+            </div>
+            <div class="men-collection">
+                <div class="men-img">
+                    <img src="/assets/images/winter-new-collection.webp" class="men-coll-img" alt="">
+                </div>
+                <div class="img-text3">
+                    <p class="men-line">Man'S Cloth</p>
+                    <button type="submit" class="deals-btn2">Best New Deals</button>
+                    <p class="new-men-line">New Collection</p>
+                </div>
+            </div>
+        </div>
+    </category>
+
+    <div class="products">
+        <p class="latest-head">Latest Products</p>
+        <div class="products-new">
+            <p class="all-line">All</p>
+            <p class="new-line">New</p>
+            <p class="featured-line">Featured</p>
+            <p class="offer-line">Offer</p>
+        </div>
+    </div>
+
+    <products1>
+        <div class="product-cards container">
+            <div class="product1-card">
+                <img src="/assets/images/p1.png" class="prod1-img" alt="">
+                <div class="rating">
+                    <i class='bx bx-star star1'></i>
+                    <i class='bx bx-star star2'></i>
+                    <i class='bx bx-star star3'></i>
+                    <i class='bx bx-star star4'></i>
+                    <i class='bx bx-star star5'></i>
+                </div>
+                <p class="dress-name">Green Dress with details</p>
+                <div class="discount-price">
+                    <p class="price-now">$40.00</p>
+                    <p class="price-before">$60.00</p>
+                </div>
+            </div>
+            <div class="product2-card">
+                <img src="/assets/images/p2.webp" class="prod1-img" alt="">
+                <div class="rating">
+                    <i class='bx bx-star star1'></i>
+                    <i class='bx bx-star star2'></i>
+                    <i class='bx bx-star star3'></i>
+                    <i class='bx bx-star star4'></i>
+                    <i class='bx bx-star star5'></i>
+                </div>
+                <p class="dress-name">Green Dress with details</p>
+                <div class="discount-price">
+                    <p class="price-now">$40.00</p>
+                    <p class="price-before">$60.00</p>
+                </div>
+            </div>
+            <div class="product3-card">
+                <img src="/assets/images/p3.png" class="prod1-img" alt="">
+                <div class="rating">
+                    <i class='bx bx-star star1'></i>
+                    <i class='bx bx-star star2'></i>
+                    <i class='bx bx-star star3'></i>
+                    <i class='bx bx-star star4'></i>
+                    <i class='bx bx-star star5'></i>
+                </div>
+                <p class="dress-name">Green Dress with details</p>
+                <div class="discount-price">
+                    <p class="price-now">$40.00</p>
+                    <p class="price-before">$60.00</p>
+                </div>
+            </div>
+            <div class="product4-card">
+                <img src="/assets/images/p4.webp" class="prod1-img" alt="">
+                <div class="rating">
+                    <i class='bx bx-star star1'></i>
+                    <i class='bx bx-star star2'></i>
+                    <i class='bx bx-star star3'></i>
+                    <i class='bx bx-star star4'></i>
+                    <i class='bx bx-star star5'></i>
+                </div>
+                <p class="dress-name">Green Dress with details</p>
+                <div class="discount-price">
+                    <p class="price-now">$40.00</p>
+                    <p class="price-before">$60.00</p>
+                </div>
+            </div>
+            <div class="product5-card">
+                <img src="/assets/images/p5.webp" class="prod1-img" alt="">
+                <div class="rating">
+                    <i class='bx bx-star star1'></i>
+                    <i class='bx bx-star star2'></i>
+                    <i class='bx bx-star star3'></i>
+                    <i class='bx bx-star star4'></i>
+                    <i class='bx bx-star star5'></i>
+                </div>
+                <p class="dress-name">Green Dress with details</p>
+                <div class="discount-price">
+                    <p class="price-now">$40.00</p>
+                    <p class="price-before">$60.00</p>
+                </div>
+            </div>
+            <div class="product6-card">
+                <img src="/assets/images/p6.png" class="prod1-img" alt="">
+                <div class="rating">
+                    <i class='bx bx-star star1'></i>
+                    <i class='bx bx-star star2'></i>
+                    <i class='bx bx-star star3'></i>
+                    <i class='bx bx-star star4'></i>
+                    <i class='bx bx-star star5'></i>
+                </div>
+                <p class="dress-name">Green Dress with details</p>
+                <div class="discount-price">
+                    <p class="price-now">$40.00</p>
+                    <p class="price-before">$60.00</p>
+                </div>
+            </div>
+        </div>
+    </products1>
+ 
+
+    <best-product>
+        <div class="bp-left">
+            <img src="assets/images/xcard-man.png.pagespeed.ic.atpcqNbLer.webp" class="bp-img" alt="">
+        </div>
+        <div class="bp-center">
+            <div class="bp-head">
+                <p class="bp-head1">Find The Best Product from Our Shop</p>
+                <p class="bp-tagline">Designers who are interesten creating state of the.</p>
+                <button type="submit" class="bp-btn">Shop Now</button>
+            </div>
+        </div>
+        <div class="bp-right">
+            <img src="/assets/images/xcard-shape.png.pagespeed.ic.VnXz22z4_Q.webp" class="bp-img2" alt="">
+        </div>
+    </best-product>
+
+
+    <best-collection>
+        <div class="c-left">
+            <p class="c-head1">Best Collection</p>
+            <p class="c-head2">of This Month</p>
+            <p class="c-tagline">Designers who are interesten crea.</p>
+            <button type="submit" class="c-btn">Shop Now</button>
+            <img src="assets/images/c-img1.webp" class="c-img1" alt="img1">
+        </div>
+        <div class="c-center">
+            <img src="assets/images/c-img2.webp" class="c-img2" alt="img2">
+        </div>
+        <div class="c-right">
+            <div class="c-right1">
+                <p class="c-imgline1">Menz Winter <br> Jacket</p>
+                <img src="assets/images/c-img3.webp" class="c-img3" alt="">
+            </div>
+            <div class="c-right2">
+                <p class="c-imgline2">Menz Winter <br> Jacket</p>
+                <img src="assets/images/c-img4.webp" class="c-img4" alt="">
+            </div>
+            <div class="c-right3">
+                <p class="c-imgline3">Menz Winter <br> Jacket</p>
+                <img src="assets/images/c-img5.webp" class="c-img5" alt="">
+            </div>
+        </div>
+    </best-collection>
+    
+    
+    <news>
+        <div class="news-left">
+            <div class="news-bg">
+                <img src="assets/images/news-img.webp" class="news-img" alt="">
+            </div>
+        </div>
+        <div class="news-center">
+            <h1 class="news-head1">Get Our</h1>
+            <h1 class="news-head1">Latest Offers News</h1>
+            <h6 class="news-tagline">Subscribe news latter</h6>
+        </div>
+        <div class="news-right">
+            <input type="text" class="news-email" placeholder="Your email here">
+            <button type="submit" class="news-btn">Shop Now</button>
+        </div>
+    </news>
+    
+    
+    <icons class="container">
+        <div class="icons-left">
+            <i class='bx bx-package'></i>
+            <div class="icondetail">
+                <h4 class="iconhead">Free Shipping Method</h4>
+                <h6 class="iconpara">aorem ixpsacdolor sit <br> ameasecur adipisicing elitsf <br> edasd.</h6>
+            </div>
+        </div>
+        <div class="icons-center">
+            <i class='bx bx-lock-open bx-flip-horizontal' ></i>
+            <div class="icondetail">
+                <h4 class="iconhead">Secure Payment System</h4>
+                <h6 class="iconpara">aorem ixpsacdolor sit <br> ameasecur adipisicing elitsf <br> edasd.</h6>
+            </div>
+        </div>
+        <div class="icons-right">
+            <i class='bx bx-refresh' ></i>
+            <div class="icondetail">
+                <h4 class="iconhead">Secure Payment System</h4>
+                <h6 class="iconpara">aorem ixpsacdolor sit <br> ameasecur adipisicing elitsf <br> edasd.</h6>
+            </div>
+        </div>
+    </icons>
+    
+    
+    <images>
+        <div class="gallery container-fluid">
+            <div class="gallery-item">
+                <img src="assets/images/s1.webp">
+            </div>    
+            <div class="gallery-item">
+                <img src="assets/images/s2.webp">
+            </div>    
+            <div class="gallery-item">
+                <img src="assets/images/s3.webp">
+            </div>    
+            <div class="gallery-item">
+                <img src="assets/images/s4.webp">
+            </div>    
+            <div class="gallery-item">
+                <img src="assets/images/s5.webp">
+            </div>    
+        </div>
+    </images>
+    
+    
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+        <section class="container footer-container">
+            <div class="row">
+                <div class="col">
+                    <img src="assets/images/logo.png" class="footer-logo" alt="">
+                    <h6 class="footer-detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore.</h6>
+                </div>
+                <div class="col">
+                    <h4 class="footer-head1" style="font-size: 20px; margin-left: 0;">Quick Links</h4>
+                    <ul style="font-size: 20px; padding-left: 0;">
+                        <li class="links">About</li>
+                        <li class="links">Offers & Discounts</li>
+                        <li class="links">Get Coupon</li>
+                        <li class="links">Contact Us</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="footer-head2" style="font-size: 20px; margin-left: 0;">New Products</h4>
+                    <ul style="font-size: 20px; padding-left: 0;">
+                        <li class="links">Woman Cloth</li>
+                        <li class="links">Fashion Accessories</li>
+                        <li class="links">Man Accessories</li>
+                        <li class="links">Rubber made Toys</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h4 class="footer-head3" style="font-size: 20px; margin-left: 0;">Support</h4>
+                    <ul style="font-size: 20px; padding-left: 0;">
+                        <li class="links">Frequesntly Asked Questions</li>
+                        <li class="links">Terms & Conditions</li>
+                        <li class="links">Privacy Policy</li>
+                        <li class="links">Privacy Policy</li>
+                        <li class="links">Report a Payment Issue</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="container footer-container1">
+            <h6 class="copyright">Copyright ©2021 All rights reserved | This template is made with <i class='bx bx-heart footer-heart' ></i> by Colorlib</h6>
+            <div class="social-link">
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-facebook'></i>
+                <i class='bx bxl-behance' ></i>
+                <i class='bx bx-globe' ></i>
+            </div>
+        </section>
+    </footer>
+</div>
+
+</body>
+</html>
