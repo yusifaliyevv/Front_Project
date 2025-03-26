@@ -1,0 +1,166 @@
+
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.card{
+  border: none !important;
+}
+.cardlar {
+  background-color: #fbf9ff !important;
+}
+.cardlar h2{
+  padding-left: 10px;
+}
+.cardlar ul{
+  padding-left: 10px;
+}
+.cardlar .tags{
+  padding-left: 10px;
+}
+.tags button{
+  border-radius: none !important;
+  border: 1px solid #eee !important;
+  background-color: white !important;
+  color: #506172;
+}
+.tags button:hover{
+  background-color: #FF0F48 !important;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.red {
+  position: absolute;
+  top: 55%;
+  left: 5%;
+  width: 100px;
+  height: 100px;
+}
+.red :hover {
+  background-color: none;
+}
+.blog-photo {
+  position: relative;
+  width: 800px;
+  height: 400px;
+}
+.card-body {
+  background-color: #f8f9fa;
+  padding: 80px 30px 20px 30px !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.search {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.picture {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.pictures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  gap: 20px;
+}
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.tags button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.instagram-feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+}
+.search:hover{
+  border: 1px solid #FF0F48 !important;
+  background-color: white !important;
+  color: black !important;
+  transition: 0.3s ease-in-out;
+}
+nav{
+  border-top: 1px solid #eee;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  font: 1.2em sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination {
+  color: #506172 !important;
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 50px;
+}
+.pagination li {
+  margin: 0 1px;
+}
+.pagination a {
+  display: block;
+  padding: 0.5em 1em;
+  border: 1px solid #506172 !important;
+  border-radius: 0.2em;
+  text-decoration: none;
+  color: #506172 !important;
+}
+.pagination a:hover{
+  color: #FF0F48 !important;
+}
+.pagination a[aria-current="page"] {
+  background-color: transparent;
+  color: #fff;
+}
+.form-control{
+  font-size: 16px !important;
+}
+.list-group li{
+  padding: 15px 0 !important;
+  font-size: 16px;
+  background-color: #fbf9ff !important;
+}
+.list-group-item a{
+  font-size: 18px !important;
+  color: #506172 !important;
+}
+.list-group-item a:hover{
+  color: #FF0F48 !important;
+}
+
+.socials i:hover{
+ color: #FF0F48 !important;
+ cursor: pointer;
+}
+
+.hoverred:hover{
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid #FF0F48 !important;
+}

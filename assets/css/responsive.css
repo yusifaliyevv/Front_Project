@@ -1,0 +1,524 @@
+@media only screen and (max-width: 1440px) {
+    .news-bg{
+      display: none;
+    }
+  
+    .news-center{
+      margin-left: 0rem;
+      margin-bottom: 0rem;
+    }
+  
+    news{
+      padding: 5rem 0 5rem 0;
+    }
+  
+    .img-text1{
+      margin-left: 12rem;
+      margin-top: -12rem;
+    }
+    
+    .img-text2{
+      margin-left: 10rem;
+      margin-top: -12rem;
+    }
+    
+    .img-text3{
+      margin-left: 6.2rem;
+      margin-top: -12rem;
+    }
+  
+    .img-text1{
+      margin-left: 12rem;
+      margin-top: -12rem;
+    }
+    
+    .img-text2{
+      margin-left: 10rem;
+      margin-top: -12rem;
+    }
+    
+    .img-text3{
+      margin-left: 6.2rem;
+      margin-top: -12rem;
+    }
+    .nav-search,
+    .navsearch-btn,
+    .favourite{
+      display: none;
+    }
+    .main-img{
+      width: 70%;
+    }
+    .discount{
+      font-style: italic;
+      font-size: 25px;
+      color: #2577fd;
+      font-family: 'Yellowtail', cursive;
+    }
+    .collection1{
+      font-size: 77px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .collection2{
+      font-size: 77px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .best-collection{
+      font-style: italic;
+      font-size: 15px;
+      margin-bottom: 4rem;
+      font-family: 'Yellowtail', cursive;
+    }
+    .shop-btn{
+      color: white;
+      background: #2577fd;
+      border: none;
+      font-size: 12px;
+      border-radius: 5rem;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      font-family: 'Poppins', sans-serif;
+    }
+    .main-left{
+      margin-left: -15rem;
+    }
+    .main-right{
+      margin-left: -15rem;
+    }
+    .products{
+      flex-wrap: wrap;
+    }
+    .bp-head1{
+      font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+      margin: 0 6rem 0 0;
+    }
+    
+    .bp-tagline{
+      font-size: 18px;
+    }
+    
+    .bp-btn{
+      border-radius: 1.9rem;
+      border: none;
+      background: #000;
+      color: #fff;
+      padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+      font-size: 20px;
+      margin-top: 3rem;
+    }
+    .bp-center{
+      margin: 0 -3rem 8rem -5rem;
+    }  
+  }
+  @media only screen and (max-width: 990px) {
+    .products{
+      justify-content: center;
+    }
+    .product-cards{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .category-card{  
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .women-coll-img{
+      width: 90%;
+    }
+  
+    .winter-collection{
+      margin-bottom: 1.3rem;
+    }
+  
+    .men-collection{
+      margin-top: 0.5rem;
+    }
+  
+    .img-text1{
+      margin-left: 12rem;
+      margin-top: -14.5rem;
+    }
+  
+    .img-text2{
+      margin-left: 10rem;
+      margin-top: -14rem;
+    }
+  
+    .img-text3{
+      margin-left: 6.2rem;
+      margin-top: -14rem;
+    }
+  
+    .women-line,
+    .men-line,
+    .winter-line{
+      font-family: 'Abril Fatface', cursive;
+      font-size: 38px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .men-line{
+      margin-left: 4rem;
+    }
+  
+    .deals-btn,
+    .deals-btn2{
+      border: none;
+      border-radius: 1.6rem;
+      padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+      font-size: 16px;
+      font-weight: 600;
+      background: #ffce25;
+      color: black;
+    }
+  
+    .new-women-line,
+    .new-men-line,
+    .disc-line{
+      color: #0071fe;
+      font-family: 'Yellowtail', cursive;
+      font-size: 28px;
+      font-weight: 600;
+      text-shadow: white -2px -2px;
+    }
+  
+    .disc-line{
+      margin-bottom: -1rem;
+    }
+  
+    .new-women-line,
+    .new-men-line{
+      margin-top: -0.8rem;
+      margin-left: -1rem;
+    }
+  
+    .new-coll{
+      font-weight: 400;
+    }
+  
+    .winter-coll-img{
+      width: 90%;
+    }
+  
+    .men-coll-img{
+      width: 90%;
+    }
+  
+    .category-card{
+      flex-wrap: wrap;
+    }
+    user{
+      display: none;
+    }
+    .bp-left{
+      display: none;
+    }
+    best-product{
+      height: 100%;  
+      background: #fff7d8;
+      grid-area: best-product;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 4rem 5rem 4rem;
+      padding: 5rem 0 5rem 0;
+    }
+    .bp-head1{
+      font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+      margin: 0 6rem 0 0;
+    }
+    
+    .bp-tagline{
+      font-size: 18px;
+    }
+    
+    .bp-btn{
+      border-radius: 1.9rem;
+      border: none;
+      background: #000;
+      color: #fff;
+      padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+      font-size: 20px;
+      margin-top: 3rem;
+    }
+    .bp-center{
+      margin: 0;
+    }
+    .c-center{
+      display: none;
+    }
+    best-collection{
+      background: #fff;
+      grid-area: best-collection;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 5rem 4rem 5rem 4rem;
+    }
+    news{
+      background: #DFF1FF;
+      grid-area: news;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      text-align: left;
+      margin: 5rem 4rem 5rem 4rem;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .main-img{
+      width: 50%;
+      margin: 0;
+    }
+    .discount{
+      font-style: italic;
+      font-size: 30px;
+      color: #2577fd;
+      font-family: 'Yellowtail', cursive;
+    }
+    .collection1{
+      font-size: 60px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .collection2{
+      font-size: 60px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .best-collection{
+      font-style: italic;
+      font-size: 25px;
+      margin-bottom: 2rem;
+      font-family: 'Yellowtail', cursive;
+    }
+    .shop-btn{
+      color: white;
+      background: #2577fd;
+      border: none;
+      font-size: 15px;
+      border-radius: 5rem;
+      padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+      font-family: 'Poppins', sans-serif;
+    }  
+    best-product{
+      height: 100%;  
+      background: #fff7d8;
+      grid-area: best-product;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 4rem 5rem 4rem;
+      padding: 5rem 0 5rem 0;
+    }
+    .bp-head1{
+      font-size: 35px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    
+    .bp-tagline{
+      font-size: 18px;
+    }
+    
+    .bp-btn{
+      border-radius: 1.9rem;
+      border: none;
+      background: #000;
+      color: #fff;
+      padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+      font-size: 20px;
+      margin-top: 3rem;
+    }
+    .bp-center{
+      margin: 0 -2rem 5rem -8rem;
+    }
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .main-left{
+      display: none;
+    }
+    .bp-right{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 425px) {
+    .collection1{
+      font-size: 47px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .collection2{
+      font-size: 47px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    .main-right{
+      margin-left: 0;
+    }
+    .products{
+      background: #fff;
+      grid-area: products;
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+      margin: 0;
+      border-bottom: #e8e8e8 solid 2px;
+    }
+    
+    .latest-head{
+      font-size: 40px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    
+    .products-new{
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      align-items: center;
+    } 
+    best-product{
+      height: 100%;  
+      background: #fff7d8;
+      grid-area: best-product;
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0 4rem 5rem 4rem;
+    }
+    .bp-head1{
+      font-size: 25px;
+      font-family: 'Abril Fatface', cursive;
+    }
+    
+    .bp-tagline{
+      font-size: 15px;
+    }
+    
+    .bp-btn{
+      border-radius: 1.9rem;
+      border: none;
+      background: #000;
+      color: #fff;
+      padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+      font-size: 20px;
+      margin-top: 3rem;
+    }
+    .c-img1{
+      display: none;
+    }
+    .news-email{
+      border-radius: 1.625rem 0 0 1.625rem;
+      padding: 1rem 2rem 1rem 1rem;
+      border: none;
+    }
+    
+    .news-btn{
+      border: none;
+      border-radius: 1.6rem;
+      background: #2577fd;
+      color: #fff;
+      padding: 1rem 1rem 1rem 1rem;
+      margin-left: -1rem;
+    } 
+  }
+  @media only screen and (max-width: 1234px){
+    .women-coll-img{
+      width: 90%;
+    }
+    
+    .winter-collection{
+      margin-bottom: 1.3rem;
+    }
+    
+    .men-collection{
+      margin-top: 0.5rem;
+    }
+    
+    .img-text1{
+      margin-left: 8rem;
+      margin-top: -11rem;
+    }
+    
+    .img-text2{
+      margin-left: 6rem;
+      margin-top: -11rem;
+    }
+    
+    .img-text3{
+      margin-left: 4rem;
+      margin-top: -11rem;
+    }
+    
+    .women-line,
+    .men-line,
+    .winter-line{
+      font-family: 'Abril Fatface', cursive;
+      font-size: 33px;
+      margin-bottom: 0.5rem;
+    }
+    
+    .men-line{
+      margin-left: 4rem;
+    }
+    
+    .deals-btn,
+    .deals-btn2{
+      border: none;
+      border-radius: 1.6rem;
+      padding: 0.8rem 1.5rem 0.8rem 1.5rem;
+      font-size: 12px;
+      font-weight: 600;
+      background: #ffce25;
+      color: black;
+    }
+    
+    .new-women-line,
+    .new-men-line,
+    .disc-line{
+      color: #0071fe;
+      font-family: 'Yellowtail', cursive;
+      font-size: 23px;
+      font-weight: 600;
+      text-shadow: white -2px -2px;
+    }
+  }
+  @media only screen and (max-width:360px) {
+    .prod1-img{
+      width: 80%;
+    }
+    .news-email{
+      border-radius: 1.625rem 0 0 1.625rem;
+      padding: 1rem 0 1rem 1rem;
+      border: none;
+    }
+    
+    .news-btn{
+      border: none;
+      border-radius: 1.6rem;
+      background: #2577fd;
+      color: #fff;
+      padding: 0.2rem 1rem 0.2rem 1rem;
+      margin-left: -1rem;
+    }
+    .news-right{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+  }

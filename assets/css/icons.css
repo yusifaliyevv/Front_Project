@@ -1,0 +1,28 @@
+#icons{
+    background: #fff;
+    grid-area: icons;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    margin: 5rem 0 5rem 0;
+}
+
+.free-shipp{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bx-package,
+.bx-lock-open,
+.bx-refresh{
+    font-size: 50px;
+    margin-bottom: 1rem;
+}
+
+.iconpara{
+    color: #757581;
+    font-size: 18px;
+}

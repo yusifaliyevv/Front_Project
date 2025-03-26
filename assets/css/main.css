@@ -1,0 +1,14 @@
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/images/pl_bg.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.toppic{
+    font-size: 50px;
+}

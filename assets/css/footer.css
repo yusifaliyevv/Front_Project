@@ -1,0 +1,38 @@
+footer{
+    padding: 150px 0;
+}
+
+.quick-links p,
+.new-pr p,
+.support p{
+    font-size: 20px;
+}
+
+.quick-links ul,
+.new-pr ul,
+.support ul{
+    font-size: 20px;
+}
+
+.quick-links li a,
+.new-pr li a,
+.support li a{
+    font-size: 16px;
+}
+
+footer ul li a{
+    color: grey !important;
+}
+
+footer ul li{
+    color: #999999;
+    margin-bottom: 16px !important;
+    font-weight: 600;
+    cursor: pointer;
+    transition: ease-in-out 250ms;
+}
+
+footer ul li:hover{
+    color: #2577fd !important;
+    margin-left: 1.5rem;
+}

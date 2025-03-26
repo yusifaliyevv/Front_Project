@@ -1,0 +1,142 @@
+header{
+    height: 100px;
+    padding: 0 170px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+}
+
+.search-bx{
+    position: relative;
+    width: 210px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bx input{
+    border: 1px solid #eee;
+    border-radius: 30px;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+.magnifying-glass{
+    position: absolute;
+    top: 18px;
+    right: 17px;
+}
+
+.magnifying-glass i{
+    color: #6c6a6a;
+    cursor: pointer;
+}
+
+.sign-in-btn{
+    display: flex;
+    align-items: center;
+}
+
+.favourite-items{
+    position: relative;
+}
+
+.favourite-items i{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #eeeeee;
+    color: #4e4e4e;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.height{
+    height: 100% !important;
+}
+
+.logs{
+    align-items: center;
+}
+
+.pages ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.pages ul li a:hover{
+    color: #ff003c  !important;
+    transition: 0.2s ease-in-out;
+}
+
+.favs{
+    justify-content: flex-end;
+    width: 640px;
+}
+
+.pages{
+    width: 768px;
+}
+
+.sign-in-btn{
+    width: 123px;
+    height: 50px;
+}
+
+.sign-in-btn button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.logs{
+    align-items: center;
+}
+
+.pages ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.pages ul li a:hover{
+    color: #ff003c  !important;
+    transition: 0.2s ease-in-out;
+}
+
+.favs{
+    justify-content: flex-end;
+    width: 640px;
+}
+
+.pages{
+    width: 768px;
+}
+
+.sign-in-btn{
+    width: 123px;
+    height: 50px;
+}
+
+.sign-in-btn button{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+button a{
+    color: white !important;
+}

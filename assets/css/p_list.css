@@ -1,0 +1,154 @@
+#hero_tw{
+    height: max-content;
+    padding: 200px 0;
+}
+
+.search-bx-tw input{
+    border: 1px solid #f4edf2;
+    background-color: #f4edf2;
+    width: 360px;
+    height: 50px;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+    color: #795376;
+}
+
+.dropdowns::placeholder{
+    color: #795376;
+}
+
+.clr::placeholder{
+    color: #795376;
+}
+
+.search-bx-tw{
+    position: relative;
+}
+
+.magnifying-glass-tw{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    font-size: 15px;
+    color: #795376;
+}
+
+.card{
+    width: 390px !important;
+    height: 600px !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.card-title{
+    font-size: 25px !important;
+}
+
+.card-title:hover{
+    color: #258AFE;
+    transition: 0.2s ease-in-out;
+}
+
+.load-more button{
+    width: 160px;
+    height: 60px;
+}
+
+.ld-mr{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #258AFE;
+    color: #258AFE;
+}
+
+.ld-mr:hover{
+    background-color: #258AFE;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#quote-area{
+    position: relative;
+    padding: 100px 0;
+    text-align: center;
+    background-color: #b08ead;
+    height: 494px;
+}
+
+.reviews p{
+    font-size: 32px;
+    padding: 30px 0;
+}
+
+.reviews strong{
+    font-size: 17px;
+}
+
+.cs-review{
+    position: relative;
+}
+
+.clipboard{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+}
+
+.clipboard i{
+    background-color: #E4D3DF;
+    color: white;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #E4D3DF;
+    color: #4e4e4e;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+#icons{
+    padding: 200px 0 170px 0;
+}
+
+#promotions{
+    padding: 200px 0;
+    background-color: #191D34;
+    color: white;
+}
+
+.prom-update h2{
+    font-size: 35px;
+}
+
+.prom-update p{
+    font-size: 16px;
+}
+
+.sub .mail{
+    border: 1px solid white;
+    background-color: transparent;
+    width: 550px;
+    height: 60px;
+    border-radius: 50px;
+}
+
+.sub .mail::placeholder{
+    font-size: 20px;
+    color: white;
+}
+
+.subscribe{
+    top: 5px;
+    right: 5px;
+}
+
+.subscribe input{
+    border-radius: 50px;
+    height: 50px;
+    width: 140px;
+    font-size: 15px;
+    font-weight: bold;
+}

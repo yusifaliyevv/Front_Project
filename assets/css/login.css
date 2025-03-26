@@ -1,0 +1,170 @@
+.login-text{
+    display: flex;
+    align-items: center;
+    padding: 80px 70px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #B08EAD 0%, #4B3049 64%, #B08EAD 100%);
+    background-size: 200% auto;
+}
+
+.login-text-inner{
+    color: white;
+}
+
+.login-text-inner button{
+    margin-top: 28px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 18px 36px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.login-text-inner button:hover{
+    color: #258AFE;
+    background-color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.login-text-inner h2{
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.login-text-inner p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.login-form{
+    padding: 80px 70px;
+    height: 600px;
+}
+
+.login-form-inner h2{
+    font-size: 26px;
+    margin-bottom: 80px;
+}
+
+.login-form-inner button{
+    margin-top: 30px;
+    background-color: transparent;
+    height: 60px;
+    border: 1px solid #258AFE;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #258AFE;
+}
+
+.login-form-inner button:hover{
+    color: white;
+    background-color: #258AFE;
+    transition: 0.3s ease-in-out;
+}
+
+.login-form-inner input[type="text"], input[type="password"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.remember{ 
+    margin-top: 20px !important;
+    color: grey;
+    font-size: 15px;
+}
+
+.forgot-password{
+    margin: 10px 0 !important;
+    text-align: end;
+    font-size: 18px;
+}
+
+.forgot-password a{
+    color: grey !important;
+}
+
+footer{
+    padding-top: 0 !important;
+}
+
+.register-form{
+    padding: 0 70px;
+    height: 600px;
+}
+
+.register-form-inner h2{
+    font-size: 26px;
+    margin-bottom: 80px;
+}
+
+.register-form-inner button{
+    margin-top: 30px;
+    background-color: transparent;
+    height: 60px;
+    border: 1px solid #258AFE;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #258AFE;
+}
+
+.register-form-inner input[type="text"], input[type="password"] {
+    font-size: 20px;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 15px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.register-form-inner button:hover{
+    background-color: #258AFE;
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+.register-text{
+    display: flex;
+    align-items: center;
+    padding: 80px 70px;
+    height: 600px;
+    background-image: linear-gradient(90deg, #B08EAD 0%, #4B3049 64%, #B08EAD 100%);
+    background-size: 200% auto;
+}
+
+.register-text-inner{
+    color: white;
+}
+
+.register-text-inner button{
+    margin-top: 28px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 18px 36px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.register-text-inner h2{
+    font-size: 24px;
+    margin-bottom: 17px;
+}
+
+.register-text-inner p{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+
+.register-text-inner button:hover{
+    background-color: white;
+    color: #258AFE;
+    transition: 0.3s ease-in-out;
+}

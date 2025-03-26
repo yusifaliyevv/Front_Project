@@ -1,0 +1,84 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    
+    text-align: left;
+}
+th {
+    color: #aaa;
+    font-size: 14px;
+    padding-bottom: 40px !important;
+}
+
+td{
+    font-size: 16px;
+    color: #415094;
+}
+
+.product-img {
+    width: 150px;
+    height: 155px;
+    border: 1px solid #ccc;
+}
+
+.pb td{
+    padding-bottom: 60px !important;
+}
+
+.counter-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.counter-btn {
+    border: none;
+    background: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.counter-value {
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.postalcode input{
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+@media (max-width: 200px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    td {
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+    td::before {
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+    }
+}
